@@ -15,7 +15,7 @@ class_names = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat',
 (train_images_full, train_labels_full), (test_images, test_labels) = fashion_mnist.load_data()
 
 # --- Sampling the data (as per the assignment recommendation) ---
-num_samples = 10000  # Number of training samples to use.  Group 9 is assigned Fashion-MNIST Dataset (Sample ~10K images) [cite: 8]
+num_samples = 10000  # Number of training samples to use. 
 train_images = train_images_full[:num_samples]
 train_labels = train_labels_full[:num_samples]
 
